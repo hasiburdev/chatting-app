@@ -21,5 +21,8 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'react/react-in-jsx-scope': 0,
+    'prettier/prettier': 2,
+    'import/order': 2,
+    'jsx-a11y/label-has-associated-control': 0,
   },
 };
