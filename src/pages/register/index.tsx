@@ -7,12 +7,12 @@ export default function Register() {
       <section className="w-1/2 flex flex-col justify-center items-center">
         <div className="w-[520px]">
           <h2 className="font-nunito text-4xl text-center font-bold">
-            Get Started with easily register{' '}
+            Get Started
           </h2>
           <p className="font-nunito text-center mt-2.5 font-regular text-xl">
             Free register and you can enjoy it
           </p>
-          <form>
+          <form className="px-4">
             <div className="relative">
               <label
                 className="absolute top-6 left-8 bg-white px-2.5"
