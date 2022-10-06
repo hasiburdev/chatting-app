@@ -3,13 +3,13 @@ import registerImage from '../../assets/images/register_banner.webp';
 
 export default function Register() {
   return (
-    <main className="flex">
-      <section className="w-1/2 flex flex-col justify-center items-center">
-        <div className="w-[520px]">
-          <h2 className="font-nunito text-4xl text-center font-bold">
+    <main className="flex px-2.5 sml:px-0">
+      <section className=" sml:w-1/2 flex flex-col grow justify-center items-center min-h-screen">
+        <div className="w-full  xl:w-[520px]">
+          <h2 className="font-nunito text-4xl sml:text-[22px] text-center font-bold md:text-3xl lg:!text-4xl">
             Get Started
           </h2>
-          <p className="font-nunito text-center mt-2.5 font-regular text-xl">
+          <p className="font-nunito text-center mt-2.5 sml:mt-0 font-regular text-xl sml:text-sm md:!text-xl">
             Free register and you can enjoy it
           </p>
           <form className="px-4">
@@ -22,7 +22,7 @@ export default function Register() {
               </label>
               <input
                 name="email"
-                className="border border-solid border-black w-full rounded-lg px-14 py-6 mt-9"
+                className="border border-solid border-black w-full rounded-lg px-14 py-6 sml:p-4 mt-9"
                 type="email"
                 id="email"
               />
@@ -36,7 +36,7 @@ export default function Register() {
                 Full Name
               </label>
               <input
-                className="border border-solid border-black w-full rounded-lg px-14 py-6 mt-9"
+                className="border border-solid border-black w-full rounded-lg px-14 py-6 sml:p-4 mt-9"
                 type="text"
               />
             </div>
@@ -49,7 +49,7 @@ export default function Register() {
               </label>
               <input
                 type="password"
-                className="border border-solid border-black w-full rounded-lg px-14 py-6 mt-9"
+                className="border border-solid border-black w-full rounded-lg px-14 py-6 sml:p-4 mt-9  md:sml:mt-9"
               />
             </div>
             <button
@@ -67,10 +67,10 @@ export default function Register() {
           </p>
         </div>
       </section>
-      <section className="w-1/2">
+      <section className="w-1/2 hidden sml:block">
         <picture>
           <img
-            className="h-screen w-full object-cover"
+            className="h-screen sml:h-auto md:!h-screen w-full object-cover"
             loading="lazy"
             src={registerImage}
             alt="Registration Banner"

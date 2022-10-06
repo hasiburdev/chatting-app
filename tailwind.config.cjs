@@ -8,6 +8,10 @@ module.exports = {
       },
       colors: {
         primary: "#5f35f5",
+      },
+      screens: {
+        sm: "375px",
+        sml: "415px"
       }
     },
   },
